@@ -14,7 +14,7 @@ namespace Codefarts.DependencyInjection
 
         void Register(Type key, Func<object> callback);
 
-        object Resolve(Type type, params object[] args);
+        object Resolve(Type type);
 
         void ResolveMembers(object value);
     }
