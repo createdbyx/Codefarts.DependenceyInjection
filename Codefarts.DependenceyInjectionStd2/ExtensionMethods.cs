@@ -12,6 +12,11 @@ namespace Codefarts.DependencyInjection
     {
         public static void Register<T>(this IDependencyInjectionProvider provider, Func<T> callback)
         {
+            if (callback == null)
+            {
+                throw new ArgumentNullException(nameof(callback));
+            }
+
             provider.Register(typeof(T), () => callback());
         }
 
@@ -22,6 +27,11 @@ namespace Codefarts.DependencyInjection
 
         public static void Register<T>(this IDependencyInjectionProvider provider, Type concrete)
         {
+            if (concrete == null)
+            {
+                throw new ArgumentNullException(nameof(concrete));
+            }
+
             provider.Register(typeof(T), concrete);
         }
 
