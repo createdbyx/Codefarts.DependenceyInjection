@@ -10,3 +10,8 @@ Codefarts.DependenceyInjectionNET5/obj/
 *.user
 Codefarts.DependanceyInjectionNET45/obj/
 Codefarts.DependanceyInjectionNET45/bin/
+Codefarts.DependenceyInjectionNET6/bin/
+Codefarts.DependenceyInjectionNET6/obj/
+packages/
+bin/
+obj/
