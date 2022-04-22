@@ -4,8 +4,6 @@
     <copydir  source="$(ProjectDir)$(OutDir)"
               destination="P:\Codefarts Assemblies\$(ProjectName)\Latest\$(ConfigurationName)\" clean="true" />
 
-    <updateversion ProjectFileName="$(ProjectPath)"/>
-    
 <!--    <status text="$(ProjectDir)$(OutDir)..\" />-->
     
     <copydir  source="$(ProjectDir)$(OutDir)..\"
