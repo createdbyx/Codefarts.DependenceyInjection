@@ -13,10 +13,11 @@
     <RepositoryUrl>https://bitbucket.org/codefartsuicontrols/codefarts.dependenceyinjection.git</RepositoryUrl>
     <RepositoryType>C#</RepositoryType>
     <PackageTags>dependencey injection ioc</PackageTags>
-    <PackageVersion>2022.4.22.22</PackageVersion>
-    <AssemblyVersion>2022.4.22.22</AssemblyVersion>
-    <FileVersion>2022.4.22.22</FileVersion>
-    <TargetFramework>net6.0</TargetFramework>
+    <PackageVersion>2022.11.24.0</PackageVersion>
+    <AssemblyVersion>2022.11.24.0</AssemblyVersion>
+    <FileVersion>2022.11.24.0</FileVersion>
+    <TargetFrameworks>net6.0;net6.0-windows;net7.0</TargetFrameworks>
+    <LangVersion>default</LangVersion>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">

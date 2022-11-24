@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Codefarts.DependenceyInject
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codefarts.DependenceyInjectionNET5", "Codefarts.DependenceyInjectionNET5\Codefarts.DependenceyInjectionNET5.csproj", "{124964E3-93B3-475F-B14B-7F13BC47F68D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codefarts.DependenceyInjectionNET6", "Codefarts.DependenceyInjectionNET6\Codefarts.DependenceyInjectionNET6.csproj", "{7935DBB1-39DE-48B0-B664-7AA2A9C61CC0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codefarts.DependenceyInjection", "Codefarts.DependenceyInjection\Codefarts.DependenceyInjection.csproj", "{7935DBB1-39DE-48B0-B664-7AA2A9C61CC0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codefarts.DependenceyInjectionNET45", "Codefarts.DependenceyInjectionNET45\Codefarts.DependenceyInjectionNET45.csproj", "{3EEA77C8-5727-4F6A-9023-F618C5FC8DBF}"
 EndProject
